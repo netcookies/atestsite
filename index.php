@@ -1,27 +1,100 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="content-type" content="text/html; charset=GB2312" >
-<title>Bestsungroup.com</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>闆嗗洟鍐呯綉瀵艰埅涓績</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-<h2 style="background-color:#ff0000;">集团外网</h2>
-<h3>集团主页</h3>
-&nbsp;&nbsp;<a href="http://www.bestsungroup.com/">集团主页</a><br>
-&nbsp;&nbsp;<a href="http://www.fjyuxing.com/">宇星/西钢主页</a><br>
-&nbsp;&nbsp;<a href="/mail">集团邮箱登陆</a><br>
-<p></p>
-<h2>集团内网导航列表</h2>
-<hr>
-<h3>在线办公</h3>
-<hr />
-&nbsp;&nbsp;<a href="http://192.168.34.31:8080/">OA系统</a><br>
-&nbsp;<a href="http://192.168.34.252/">集团ERP-NC帐套</a><br>
-&nbsp;<a href="http://192.168.34.32/">贸易ERP-NC帐套</a><br>
-<h3>资源共享</h3>
-&nbsp;&nbsp;<a href="ftp://192.168.34.222/">集团FTP</a><br>
-&nbsp;&nbsp;<a href="\\192.168.34.34">网络存储</a><br>
-<h3>集团信息中心</h3>
-&nbsp;&nbsp;<a href="/pcdata.php">计算机设备查询</a>
+<div id="topPan">
+	<ul>
+		<li><a href="#">login</a></li>
+		<li class="register"><a href="#" class="register">resister</a></li>
+	</ul>
+	<a href="index.html"><img src="images/logo.gif" alt="Business Events" width="281" height="56" border="0" class="logo" title="Business Events" /></a>
+	</div>
+<div id="headerPan">
+  <div id="headerleftPan"><img src="images/blank.gif" alt="" width="1" height="1" /></div>
+  <div id="headermiddlePan">
+  	<div id="menuPan">
+		<ul>
+			<li class="home"><a href="http://www.bestsungroup.com/" target="_blank">闆嗗洟涓婚〉</a></li>
+			<li><a href="http://www.fjyuxing.com/" target="_blank">瀹囨槦涓婚〉</a></li>
+			<li><a href="http://192.168.34.31:8080" target="_blank">OA鍔炲叕</a></li>
+			<li><a href="http://192.168.34.252" target="_blank">NC252甯愬</a></li>
+			<li><a href="http://192.168.34.32" target="_blank">NC32甯愬</a></li>
+			<li class="contact"><a href="http://172.16.10.250/mail"  target="_blank" class="contact">闆嗗洟閭</a></li>
+		</ul>
+	</div>
+	<div id="headerbodyPan">
+	  <div id="headerleftredPan">
+	  	<h2>whatsnew <br />
+<span>in 2006</span></h2>
+<p><span class="largetext">Praesent quis ipsum. ut dui tell</span> dapibus vitae,vehicula vitaeaculis anteftr  congue vel,risus.Aenean a pede.Sed..re fringilla,quam utfacilisis consequat dtrer.</p>
+	  </div>
+	  <div id="headermiddleredPan"><img src="images/blank.gif" alt="" /></div>
+	  <div id="headermorePan"><a href="#">know more</a></div>
+	</div>
+  </div>
+  <div id="headerrightPan"><img src="images/blank.gif" alt="" width="1" height="1" /></div>
+</div>
+<div id="bodyPan">
+	<h2>鏈�鏂板叕鍛�</h2>
+	<p class="date">on 2nd october 2006</p>
+	<p>Business Events is a <span>free, tableless, W3C-compliant</span> web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like.</p>
+	<p>We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template.</p>
+	<p class="more"><a href="#">....know more</a></p>
+	<p class="border"><img src="images/blank.gif" alt="" width="1" height="1" /></p>
+	<p class="date">on 2nd october 2006</p>
+	<p>Business Events is a <span>free, tableless, W3C-compliant</span> web design layout by Template World. This template has been tested and proven compatible with all major browser environments and operating systems. You are free to modify the design to suit your tastes in any way you like.</p>
+	<p>We only ask you to not remove "Design by Template World" and the link http://www.templateworld.com from the footer of the template.</p>
+	<p class="more"><a href="#">....know more</a></p>
+	</div>
+<!--  <div id="bodybottomPan">
+	  <div id="bottomleftPan">
+	  	<h2>about services <br />
+  	    <span>dapibus sit amet, aliquet</span></h2>
+		<ul>
+			<li><a href="#">Dapibus vitae,vehicula vitaea</a></li>
+			<li><a href="#">Anteftr  congue vel,risus.</a></li>
+			<li><a href="#">Pede.fringilla,quam utfacilisis</a></li>
+			<li><a href="#">Consequat dtrer.</a></li>
+		</ul>
+		<p class="more"><a href="#">want to know more solutions</a></p>
+	  </div>
+	  
+	  <div id="bottomrightPan">
+	  	<h2>about services <br />
+  	    <span>dapibus sit amet, aliquet</span></h2>
+		<ul>
+			<li><a href="#">Dapibus vitae,vehicula vitaea</a></li>
+			<li><a href="#">Anteftr  congue vel,risus.</a></li>
+			<li><a href="#">Pede.fringilla,quam utfacilisis</a></li>
+			<li><a href="#">Consequat dtrer.</a></li>
+		</ul>
+		<p class="more"><a href="#">want to know more solutions</a></p>
+	  </div>
+	</div>
+ -->   	
+	<div id="footermainPan">
+  <div id="footerPan">
+  	<ul>
+		<li><a href="#">Home</a>| </li>
+		<li><a href="#">About Us</a>| </li>
+		<li><a href="#">Services</a>| </li>
+		<li><a href="#">Support</a>| </li>
+		<li><a href="#">Testimonials</a>| </li>
+		<li><a href="#">Contact</a></li>
+		</ul>
+		<p class="copyright">漏business events. All right reserved.</p>
+  <div id="footerPanhtml"><a href="http://validator.w3.org/check?uri=referer" target="_blank">XHTML</a></div>
+  <div id="footerPancss"><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">css</a></div>
+  	<ul class="templateworld">
+  	<li>design by:</li>
+	<li><a href="http://www.templateworld.com" target="_blank">Template World</a></li>
+  </ul>
+  </div>
+</div>
 </body>
 </html>
-
