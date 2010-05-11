@@ -19,12 +19,23 @@
   <div id="headermiddlePan">
   	<div id="menuPan">
 		<ul>
-			<li class="home"><a href="http://www.bestsungroup.com/" target="_blank">集团主页</a></li>
-			<li><a href="http://www.fjyuxing.com/" target="_blank">宇星主页</a></li>
-			<li><a href="http://192.168.34.31:8080" target="_blank">OA办公</a></li>
-			<li><a href="http://192.168.34.252" target="_blank">NC252帐套</a></li>
-			<li><a href="http://192.168.34.32" target="_blank">NC32帐套</a></li>
-			<li class="contact"><a href="http://172.16.10.250/mail"  target="_blank" class="contact">集团邮箱</a></li>
+			<li class="home"><a>集团外网</a>
+				<ul>
+					<li><a href="http://www.bestsungroup.com/" target="_blank">邦盛集团</a></li>
+					<li><a href="http://www.fjyuxing.com/" target="_blank">宇星实业</a></li>
+				</ul>
+			</li>
+			<li><a>在线办公</a>
+				<ul>
+					<li><a href="http://192.168.34.31:8080" target="_blank">OA办公</a></li>
+					<li><a href="http://192.168.34.252" target="_blank">NC252帐套</a></li>
+					<li><a href="http://192.168.34.32" target="_blank">NC32帐套</a></li>
+				</ul>
+			</li>
+			<li><a href="http://172.16.10.250/mail"  target="_blank">邮箱登陆</a></li>
+			<li><a href="http://172.16.10.250/bbs"  target="_blank">员工园地</a></li>			
+			<li><a href="http://172.16.10.250/pcdata"  target="_blank">信息中心</a></li>
+			<li class="contact"><a href=" "  target="_blank" class="contact">留言板</a></li>
 		</ul>
 	</div>
 	<div id="headerbodyPan">
@@ -34,7 +45,6 @@
 <p><span class="largetext">Praesent quis ipsum. ut dui tell</span> dapibus vitae,vehicula vitaeaculis anteftr  congue vel,risus.Aenean a pede.Sed..re fringilla,quam utfacilisis consequat dtrer.</p>
 	  </div>
 	  <div id="headermiddleredPan"><img src="images/blank.gif" alt="" /></div>
-	  <div id="headermorePan"><a href="#">know more</a></div>
 	</div>
   </div>
   <div id="headerrightPan"><img src="images/blank.gif" alt="" width="1" height="1" /></div>

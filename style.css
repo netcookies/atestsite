@@ -29,31 +29,39 @@ ul{list-style-type:none;}
 
 /*----Menu Panel----*/
 #menuPan{width:686px; height:33px; background:url(images/menu-bg.gif) 0 0 repeat-x; position:relative; margin:0 auto;}
+
 #menuPan ul{width:660px; height:28px; position:absolute; top:2px; left:14px;}
-#menuPan ul li{width:110px; height:28px; float:left;}
+#menuPan ul li{ display:block; width:110px; height:28px; float:left;}
+#menuPan li ul{ display:none; width:110px; z-index:2;}
+
+#menuPan li:hover ul{ top:0px; left:0px; position:relative; display:block;}
+#menuPan li:hover li{ float:none;}
+#menuPan li:hover ul a{ border:1px dashed;}
+
 #menuPan ul li a{width:109px; height:28px; display:block; background:#fff; color:#2F2A28; border-right:1px dashed #969260; font:13px/28px Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none;}
 #menuPan ul li a:hover{width:110px; height:28px; background:#2F2A28; color:#fff; border:none; text-decoration:none;}
 
 #menuPan ul li.home{width:110px; height:28px; background:#2F2A28; color:#fff; font:13px/28px Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; border:none; text-decoration:none;}
-
 #menuPan ul li.contact a{width:110px; height:28px; display:block; background:#fff; color:#2F2A28; border:none; font:13px/28px Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none;}
 #menuPan ul li.contact a:hover{width:110px; height:28px; background:#2F2A28; color:#fff; border:none; text-decoration:none;}
 
 /*----/Menu Panel----*/
-#headerbodyPan{width:686px; height:184px; position:absolute; top:42px; left:46px; background:#FEFDF1; color:#fff; border-bottom:1px solid #CDCAA3; border-top:1px solid #CDCAA3;}
+#headerbodyPan{width:686px; height:184px; position:absolute; top:42px; left:46px; background:#FEFDF1; color:#fff; border-bottom:1px solid #CDCAA3; border-top:1px solid #CDCAA3; z-index:1;}
 /*---- Header Red Panel----*/
-#headerleftredPan{width:478px; height:123px; background:url(images/redpan-bg.jpg) 0 0 repeat-x #FEFDF1; color:#fff; position:absolute; top:32px; left:0px;}
+#headerleftredPan{width:686px; height:123px; background:url(images/redpan-bg.jpg) 0 0 repeat-x #FEFDF1; color:#fff; position:absolute; top:32px; left:0px; z-index:1;}
 #headerleftredPan h2{width:160px; height:69px; font:24px/24px "Trebuchet MS", Arial, Helvetica, sans-serif; position:absolute; top:29px; left:36px; text-transform:uppercase;}
 #headerleftredPan h2 span{font-size:39px; line-height:30px;}
 
 #headerleftredPan p{width:262px; height:74px; display:block; position:absolute; top:24px; left:190px; font-size:14px; line-height:17px;} 
 #headerleftredPan p span.largetext{font-size:18px; line-height:20px;} 
 
-#headermiddleredPan{width:161px; height:142px; background:url(images/red-image.jpg) 0 0 no-repeat; position:absolute; top:13px; left:478px;}
+/*#headermiddleredPan{width:161px; height:142px; background:url(images/red-image.jpg) 0 0 no-repeat; position:absolute; top:13px; left:478px;}*/
+
 /*----Header MORE Panel----*/
-#headermorePan{width:47px; height:123px; position:absolute; top:32px; right:0px; font:13px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold;}
+/*#headermorePan{width:47px; height:123px; position:absolute; top:32px; right:0px; font:13px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold;}
 #headermorePan a{width:39px; height:38px; display:block; background:url(images/headermore-normal.gif) 0 0 no-repeat #FEFDF1; color:#FDFCEC; text-decoration:none; padding:85px 0 0 8px;}
 #headermorePan a:hover{background:url(images/headermore-hover.gif) 0 0 no-repeat; text-decoration:none;}
+*/
 
 /*----/Header MORE Panel----*/
 /*----Header Middle Panel----*/
